@@ -1,0 +1,22 @@
+{
+  "city": "DEMOCARS",
+  "lev": "build/DEMOCARS.LEV",
+  "lcf": "build/DEMOCARS.LCF",
+  "build_dir": "build",
+  "manifest": "DEMOCARS.json",
+  "declare": {
+    "schema": 1,
+    "name": "DEMOCARS",
+    "donor": {"city": "VEGAS", "source": "driver2", "obj_scale": 1.0},
+    "scale": 1,
+    "order": [
+      {"slot": 5, "car": "DEMOHAVANA_model0"},
+      {"slot": 1, "car": "VEGAS_model1"}
+    ],
+    "palette_from_pages": true,
+    "cars": {
+      "DEMOHAVANA_model0": "cars/DEMOHAVANA_model0/handling.json",
+      "VEGAS_model1": "cars/VEGAS_model1/handling.json"
+    }
+  }
+}

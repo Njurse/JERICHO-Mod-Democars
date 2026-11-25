@@ -3,22 +3,28 @@
   "clean": "HAVANA_model0_clean.obj",
   "damaged": "HAVANA_model0_damaged.obj",
   "low": "HAVANA_model0_low.obj",
-  "wheels": {
-    "clean": {"png": "textures/wheelclean.png", "set": 20, "island": [192, 64, 256, 128]},
-    "damaged": {"png": "textures/wheeldam.png", "set": 20, "island": [192, 0, 256, 64]},
-    "fast": {"png": "textures/wheelfast.png", "set": 20, "island": [192, 64, 256, 128]}
-  },
   "textures": {
-    "21": {"png": "../../shared/textures/PAGE_21.png"},
-    "36": {"png": "textures/PAGE_36.png"},
-    "20": {"png": "textures/PAGE_20.png"}
+    "21": {
+      "png": "../../shared/textures/PAGE_21.png",
+      "transparent": "FF00FF",
+      "transparent_tolerance": 0
+    },
+    "36": {"png": "textures/PAGE_36.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "20": {"png": "textures/PAGE_20.png", "transparent": "FF00FF", "transparent_tolerance": 0},
+    "wheels": {
+      "clean": {"png": "textures/wheelclean.bmp", "set": 21, "island": [192, 64, 256, 128],"transparent": "FF00FF", "transparent_tolerance": 1},
+      "damaged": {"png": "textures/wheeldam.bmp", "set": 21, "island": [192, 0, 256, 64],"transparent": "FF00FF", "transparent_tolerance": 1},
+      "fast": {"png": "textures/wheeldam.bmp", "set": 21, "island": [192, 64, 256, 128],"transparent": "FF00FF", "transparent_tolerance": 1}
+    },
+    "portrait": "textures/portrait.png"
   },
   "sounds": {
     "engine": {"wav": "sounds/engine.wav", "rate": 16000, "normalise": false, "loop": true},
     "idle": {"wav": "sounds/idle.wav", "rate": 16000, "normalise": false, "loop": true},
-    "horn": {"wav": "sounds/horn.wav", "rate": 8000, "normalise": false, "loop": false},
     "max_rate": 16000,
-    "sample_bytes": 16384
+    "sample_bytes": 16384,
+    "cop": true,
+    "siren": {"wav": "../../shared/sounds/siren.wav", "rate": 8000, "normalise": false, "loop": true}
   },
   "handling": {
     "headLight": [108, 17, -363],

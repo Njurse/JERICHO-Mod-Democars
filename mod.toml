@@ -1,0 +1,13 @@
+id = "democars"
+name = "DemoCars"
+version = "0.1.0"
+# the JERICHO interface (SDK) this mod is built against
+interface = 3
+author = "Njurse"
+description = "Demo vehicle pack: custom cars baked into the DEMOCARS city bank (Havana and Vegas based) with portraits, for use alongside the multiplayer car picker."
+# Data-only vehicle pack: installed under MODS/ with banks/, but never compiled
+# into the exe and never loaded as a DLL.
+runtime = "data"
+dependencies = ["carhacks"]
+# Players turn it on under Mods; leave this false.
+default-enabled = false

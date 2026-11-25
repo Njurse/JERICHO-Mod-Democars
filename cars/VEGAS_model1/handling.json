@@ -8,11 +8,11 @@
     "54": {
       "png": "textures/PAGE_54.png",
       "paints": {
-        "paint0": "501810",
-        "paint1": "000000",
-        "paint2": "000000",
-        "paint3": "c0c0c0",
-        "paint4": "7890b0"
+        "paint0": "9a6a4a",
+        "paint1": "4a4a4a",
+        "paint2": "4a4a4a",
+        "paint3": "e2e2e2",
+        "paint4": "aac4e6"
       },
       "protect": ["303030", "404040", "c0c0c8", "a8a0a8", "180810", "e8e8f0", "a09898", "202020"],
       "transparent": "FF00FF",
